@@ -35,9 +35,9 @@ Replacing $\delta u$ with our test function $v$ and $\delta \lambda$ with anothe
 
 ## Linear Poisson Equation with Integral Term
 
-Consider the PDE
+Consider the PDE 
 $$
-- \nabla^{2}u + \int_{V} u \ dV = f(\mathbf{x}), \quad \mathbf{x} \in V \\
+-\nabla^{2}u + \int_{V} u \ dV = f(\mathbf{x}), \quad \mathbf{x} \in V \\
  u = 0, \quad \mathbf{x} \in \partial V
 $$
 This is a Poisson equation with an integral term and zero Dirichlet boundary conditions on the domain.  We note this PDE is linear. Consider the homogeneous case where $f(\mathbf{x}) = 0$, 
